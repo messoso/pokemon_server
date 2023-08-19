@@ -1,0 +1,8 @@
+/.gradle/
+/build/
+/.apt_generated/
+/.apt_generated_tests/
+/bin-default/
+/main/
+/test/
+/*.class
