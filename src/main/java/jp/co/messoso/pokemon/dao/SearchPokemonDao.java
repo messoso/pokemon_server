@@ -14,4 +14,7 @@ public interface SearchPokemonDao {
     @Select
     public List<PokemonEntity> searchAll();
     
+    @Select
+    public PokemonEntity search(Integer id, Integer branch);
+    
 }
